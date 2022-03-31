@@ -1,0 +1,25 @@
+{
+  "name": "finapi",
+  "version": "1.0.0",
+  "description": "- [ ] Deve ser possível criar umma conta\r - [ ] Deve ser possível buscar o extrato bancário do cliente\r - [ ] Deve ser possível realizar um depósito\r - [ ] Deve ser possível realizar um saque\r - [ ] Deve ser possível buscar o extrato bancário do cliente por data\r - [ ] Deve ser possível atualizar dados da conta do cliente\r - [ ] Deve ser possível obter dados da conta do cliente\r - [ ] Deve ser possível deletar uma conta",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasAlberty/FinApi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasAlberty/FinApi/issues"
+  },
+  "homepage": "https://github.com/LucasAlberty/FinApi#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2"
+  }
+}
